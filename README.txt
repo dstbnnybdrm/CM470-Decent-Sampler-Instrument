@@ -21,36 +21,36 @@ in the high end.
 
 list of all the tones and their categories:
 
-	KEYBOARD
-		PIANO
-		ELEC PIANO
-		HARPSICHORD
-		ELEC ORGAN
-		CELESTA
-	WIND
-		TRUMPET
-		BRASS ENS
-		CLARINET
-		FLUTE
-		HARMONICA
-	STRING
-		STRINGS ENS
-		VIOLIN
-		CELLO
-		ELEC GUITAR
-		ELEC BASS
-	SYNTH
-		WAW VOICE
-		BELLS
-		PLUNK EXTEND
-		TWINKLE ECHO
-		JUMPING
-	S. E. (SOUND EFFECTS)
-		CAR HORN
-		AMBULANCE
-		AIRPLANE
-		TELEPHONE
-		CHIRP
+    KEYBOARD
+        PIANO
+        ELEC PIANO
+        HARPSICHORD
+        ELEC ORGAN
+        CELESTA
+    WIND
+        TRUMPET
+        BRASS ENS
+        CLARINET
+        FLUTE
+        HARMONICA
+    STRING
+        STRINGS ENS
+        VIOLIN
+        CELLO
+        ELEC GUITAR
+        ELEC BASS
+    SYNTH
+        WAW VOICE
+        BELLS
+        PLUNK EXTEND
+        TWINKLE ECHO
+        JUMPING
+    S. E. (SOUND EFFECTS)
+        CAR HORN
+        AMBULANCE
+        AIRPLANE
+        TELEPHONE
+        CHIRP
 
 these sounds are free to use in your own works, commercial or non-commercial.
 they are NOT to be redistributed within another collection or sample pack.
@@ -60,6 +60,6 @@ have fun!
 ⚘⚘⚘
 
 you can contact me at dustbunny.bedroom@gmail.com for more information, and
-you can visit www.dustbunnybedroom.neocities.com for all the other things i do.
+you can visit https://dustbunnybedroom.neocities.org/ for all the other things i do.
 
 all samples copyright © 2024 dustbunnybedroom
