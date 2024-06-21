@@ -40,5 +40,10 @@
             <sample rootNote="83" loNote="82" hiNote="83"
                 path="Samples/04 ELEC ORGAN/CM470-ELEC_ORGAN-83.wav" />
         </group>
+        <!-- testing release samples: -->
+        <group trigger="release">
+            <sample rootNote="53" loNote="48" hiNote="53"
+                path="Samples/test.wav" />
+        </group>
     </groups>
 </DecentSampler>
