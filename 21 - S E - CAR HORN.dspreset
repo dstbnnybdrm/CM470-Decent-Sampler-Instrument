@@ -6,38 +6,13 @@
     <!--     </tab> -->
     <!-- </ui> -->
     <groups>
-        <group>
-            <sample rootNote="53" loNote="53" hiNote="53" path="Samples/21 CAR HORN/CM470-CAR_HORN.wav" />
-            <sample rootNote="54" loNote="54" hiNote="54" path="Samples/21 CAR HORN/CM470-CAR_HORN.wav" />
-            <sample rootNote="55" loNote="55" hiNote="55" path="Samples/21 CAR HORN/CM470-CAR_HORN.wav" />
-            <sample rootNote="56" loNote="56" hiNote="56" path="Samples/21 CAR HORN/CM470-CAR_HORN.wav" />
-            <sample rootNote="57" loNote="57" hiNote="57" path="Samples/21 CAR HORN/CM470-CAR_HORN.wav" />
-            <sample rootNote="58" loNote="58" hiNote="58" path="Samples/21 CAR HORN/CM470-CAR_HORN.wav" />
-            <sample rootNote="59" loNote="59" hiNote="59" path="Samples/21 CAR HORN/CM470-CAR_HORN.wav" />
-            <sample rootNote="60" loNote="60" hiNote="60" path="Samples/21 CAR HORN/CM470-CAR_HORN.wav" />
-            <sample rootNote="61" loNote="61" hiNote="61" path="Samples/21 CAR HORN/CM470-CAR_HORN.wav" />
-            <sample rootNote="62" loNote="62" hiNote="62" path="Samples/21 CAR HORN/CM470-CAR_HORN.wav" />
-            <sample rootNote="63" loNote="63" hiNote="63" path="Samples/21 CAR HORN/CM470-CAR_HORN.wav" />
-            <sample rootNote="64" loNote="64" hiNote="64" path="Samples/21 CAR HORN/CM470-CAR_HORN.wav" />
-            <sample rootNote="65" loNote="65" hiNote="65" path="Samples/21 CAR HORN/CM470-CAR_HORN.wav" />
-            <sample rootNote="66" loNote="66" hiNote="66" path="Samples/21 CAR HORN/CM470-CAR_HORN.wav" />
-            <sample rootNote="67" loNote="67" hiNote="67" path="Samples/21 CAR HORN/CM470-CAR_HORN.wav" />
-            <sample rootNote="68" loNote="68" hiNote="68" path="Samples/21 CAR HORN/CM470-CAR_HORN.wav" />
-            <sample rootNote="69" loNote="69" hiNote="69" path="Samples/21 CAR HORN/CM470-CAR_HORN.wav" />
-            <sample rootNote="70" loNote="70" hiNote="70" path="Samples/21 CAR HORN/CM470-CAR_HORN.wav" />
-            <sample rootNote="71" loNote="71" hiNote="71" path="Samples/21 CAR HORN/CM470-CAR_HORN.wav" />
-            <sample rootNote="72" loNote="72" hiNote="72" path="Samples/21 CAR HORN/CM470-CAR_HORN.wav" />
-            <sample rootNote="73" loNote="73" hiNote="73" path="Samples/21 CAR HORN/CM470-CAR_HORN.wav" />
-            <sample rootNote="74" loNote="74" hiNote="74" path="Samples/21 CAR HORN/CM470-CAR_HORN.wav" />
-            <sample rootNote="75" loNote="75" hiNote="75" path="Samples/21 CAR HORN/CM470-CAR_HORN.wav" />
-            <sample rootNote="76" loNote="76" hiNote="76" path="Samples/21 CAR HORN/CM470-CAR_HORN.wav" />
-            <sample rootNote="77" loNote="77" hiNote="77" path="Samples/21 CAR HORN/CM470-CAR_HORN.wav" />
-            <sample rootNote="78" loNote="78" hiNote="78" path="Samples/21 CAR HORN/CM470-CAR_HORN.wav" />
-            <sample rootNote="79" loNote="79" hiNote="79" path="Samples/21 CAR HORN/CM470-CAR_HORN.wav" />
-            <sample rootNote="80" loNote="80" hiNote="80" path="Samples/21 CAR HORN/CM470-CAR_HORN.wav" />
-            <sample rootNote="81" loNote="81" hiNote="81" path="Samples/21 CAR HORN/CM470-CAR_HORN.wav" />
-            <sample rootNote="82" loNote="82" hiNote="82" path="Samples/21 CAR HORN/CM470-CAR_HORN.wav" />
-            <sample rootNote="83" loNote="83" hiNote="83" path="Samples/21 CAR HORN/CM470-CAR_HORN.wav" />
+        <group release="0.1" ampVelTrack="0">
+            <sample pitchKeyTrack="0" rootNote="53" loNote="53" hiNote="83"
+                path="Samples/21 CAR HORN/CM470-CAR_HORN.wav" />
+        </group>
+        <group trigger="release" attack="0.1" ampVelTrack="0">
+            <sample pitchKeyTrack="0" rootNote="53" loNote="53" hiNote="83"
+                path="Samples/21 CAR HORN/CM470-CAR_HORN-REL.wav" />
         </group>
     </groups>
 </DecentSampler>
