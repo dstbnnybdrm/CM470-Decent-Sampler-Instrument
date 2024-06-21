@@ -40,7 +40,7 @@
             <sample rootNote="83" loNote="82" hiNote="83"
                 path="Samples/04 ELEC ORGAN/CM470-ELEC_ORGAN-83.wav" />
         </group>
-        <group attack="0.1" trigger="release" ampVelTrack="0">
+        <group trigger="release" attack="0.1" ampVelTrack="0">
             <sample rootNote="53" loNote="48" hiNote="53"
                 path="Samples/04 ELEC ORGAN/CM470-ELEC_ORGAN-REL-53.wav" />
             <sample rootNote="55" loNote="54" hiNote="55"
