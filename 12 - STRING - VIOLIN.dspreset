@@ -6,23 +6,73 @@
     <!--     </tab> -->
     <!-- </ui> -->
     <groups>
-        <group>
-            <sample rootNote="53" loNote="48" hiNote="53" path="Samples/12 VIOLIN/CM470-VIOLIN-53.wav" />
-            <sample rootNote="55" loNote="54" hiNote="55" path="Samples/12 VIOLIN/CM470-VIOLIN-55.wav" />
-            <sample rootNote="57" loNote="56" hiNote="57" path="Samples/12 VIOLIN/CM470-VIOLIN-57.wav" />
-            <sample rootNote="59" loNote="58" hiNote="59" path="Samples/12 VIOLIN/CM470-VIOLIN-59.wav" />
-            <sample rootNote="61" loNote="60" hiNote="61" path="Samples/12 VIOLIN/CM470-VIOLIN-61.wav" />
-            <sample rootNote="63" loNote="62" hiNote="63" path="Samples/12 VIOLIN/CM470-VIOLIN-63.wav" />
-            <sample rootNote="65" loNote="64" hiNote="65" path="Samples/12 VIOLIN/CM470-VIOLIN-65.wav" />
-            <sample rootNote="67" loNote="66" hiNote="67" path="Samples/12 VIOLIN/CM470-VIOLIN-67.wav" />
-            <sample rootNote="69" loNote="68" hiNote="69" path="Samples/12 VIOLIN/CM470-VIOLIN-69.wav" />
-            <sample rootNote="71" loNote="70" hiNote="71" path="Samples/12 VIOLIN/CM470-VIOLIN-71.wav" />
-            <sample rootNote="73" loNote="72" hiNote="73" path="Samples/12 VIOLIN/CM470-VIOLIN-73.wav" />
-            <sample rootNote="75" loNote="74" hiNote="75" path="Samples/12 VIOLIN/CM470-VIOLIN-75.wav" />
-            <sample rootNote="77" loNote="76" hiNote="77" path="Samples/12 VIOLIN/CM470-VIOLIN-77.wav" />
-            <sample rootNote="79" loNote="78" hiNote="79" path="Samples/12 VIOLIN/CM470-VIOLIN-79.wav" />
-            <sample rootNote="81" loNote="80" hiNote="81" path="Samples/12 VIOLIN/CM470-VIOLIN-81.wav" />
-            <sample rootNote="83" loNote="82" hiNote="83" path="Samples/12 VIOLIN/CM470-VIOLIN-83.wav" />
+        <group release="0.1" ampVelTrack="0">
+            <sample rootNote="53" loNote="48" hiNote="53"
+                path="Samples/12 VIOLIN/CM470-VIOLIN-53.wav" />
+            <sample rootNote="55" loNote="54" hiNote="55"
+                path="Samples/12 VIOLIN/CM470-VIOLIN-55.wav" />
+            <sample rootNote="57" loNote="56" hiNote="57"
+                path="Samples/12 VIOLIN/CM470-VIOLIN-57.wav" />
+            <sample rootNote="59" loNote="58" hiNote="59"
+                path="Samples/12 VIOLIN/CM470-VIOLIN-59.wav" />
+            <sample rootNote="61" loNote="60" hiNote="61"
+                path="Samples/12 VIOLIN/CM470-VIOLIN-61.wav" />
+            <sample rootNote="63" loNote="62" hiNote="63"
+                path="Samples/12 VIOLIN/CM470-VIOLIN-63.wav" />
+            <sample rootNote="65" loNote="64" hiNote="65"
+                path="Samples/12 VIOLIN/CM470-VIOLIN-65.wav" />
+            <sample rootNote="67" loNote="66" hiNote="67"
+                path="Samples/12 VIOLIN/CM470-VIOLIN-67.wav" />
+            <sample rootNote="69" loNote="68" hiNote="69"
+                path="Samples/12 VIOLIN/CM470-VIOLIN-69.wav" />
+            <sample rootNote="71" loNote="70" hiNote="71"
+                path="Samples/12 VIOLIN/CM470-VIOLIN-71.wav" />
+            <sample rootNote="73" loNote="72" hiNote="73"
+                path="Samples/12 VIOLIN/CM470-VIOLIN-73.wav" />
+            <sample rootNote="75" loNote="74" hiNote="75"
+                path="Samples/12 VIOLIN/CM470-VIOLIN-75.wav" />
+            <sample rootNote="77" loNote="76" hiNote="77"
+                path="Samples/12 VIOLIN/CM470-VIOLIN-77.wav" />
+            <sample rootNote="79" loNote="78" hiNote="79"
+                path="Samples/12 VIOLIN/CM470-VIOLIN-79.wav" />
+            <sample rootNote="81" loNote="80" hiNote="81"
+                path="Samples/12 VIOLIN/CM470-VIOLIN-81.wav" />
+            <sample rootNote="83" loNote="82" hiNote="83"
+                path="Samples/12 VIOLIN/CM470-VIOLIN-83.wav" />
+        </group>
+        <group trigger="release" attack="0.1" ampVelTrack="0">
+            <sample rootNote="53" loNote="48" hiNote="53"
+                path="Samples/12 VIOLIN/CM470-VIOLIN-REL-53.wav" />
+            <sample rootNote="55" loNote="54" hiNote="55"
+                path="Samples/12 VIOLIN/CM470-VIOLIN-REL-55.wav" />
+            <sample rootNote="57" loNote="56" hiNote="57"
+                path="Samples/12 VIOLIN/CM470-VIOLIN-REL-57.wav" />
+            <sample rootNote="59" loNote="58" hiNote="59"
+                path="Samples/12 VIOLIN/CM470-VIOLIN-REL-59.wav" />
+            <sample rootNote="61" loNote="60" hiNote="61"
+                path="Samples/12 VIOLIN/CM470-VIOLIN-REL-61.wav" />
+            <sample rootNote="63" loNote="62" hiNote="63"
+                path="Samples/12 VIOLIN/CM470-VIOLIN-REL-63.wav" />
+            <sample rootNote="65" loNote="64" hiNote="65"
+                path="Samples/12 VIOLIN/CM470-VIOLIN-REL-65.wav" />
+            <sample rootNote="67" loNote="66" hiNote="67"
+                path="Samples/12 VIOLIN/CM470-VIOLIN-REL-67.wav" />
+            <sample rootNote="69" loNote="68" hiNote="69"
+                path="Samples/12 VIOLIN/CM470-VIOLIN-REL-69.wav" />
+            <sample rootNote="71" loNote="70" hiNote="71"
+                path="Samples/12 VIOLIN/CM470-VIOLIN-REL-71.wav" />
+            <sample rootNote="73" loNote="72" hiNote="73"
+                path="Samples/12 VIOLIN/CM470-VIOLIN-REL-73.wav" />
+            <sample rootNote="75" loNote="74" hiNote="75"
+                path="Samples/12 VIOLIN/CM470-VIOLIN-REL-75.wav" />
+            <sample rootNote="77" loNote="76" hiNote="77"
+                path="Samples/12 VIOLIN/CM470-VIOLIN-REL-77.wav" />
+            <sample rootNote="79" loNote="78" hiNote="79"
+                path="Samples/12 VIOLIN/CM470-VIOLIN-REL-79.wav" />
+            <sample rootNote="81" loNote="80" hiNote="81"
+                path="Samples/12 VIOLIN/CM470-VIOLIN-REL-81.wav" />
+            <sample rootNote="83" loNote="82" hiNote="83"
+                path="Samples/12 VIOLIN/CM470-VIOLIN-REL-83.wav" />
         </group>
     </groups>
 </DecentSampler>

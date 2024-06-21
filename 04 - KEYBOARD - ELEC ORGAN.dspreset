@@ -73,7 +73,6 @@
                 path="Samples/04 ELEC ORGAN/CM470-ELEC_ORGAN-REL-81.wav" />
             <sample rootNote="83" loNote="82" hiNote="83"
                 path="Samples/04 ELEC ORGAN/CM470-ELEC_ORGAN-REL-83.wav" />
-
         </group>
     </groups>
 </DecentSampler>
