@@ -1,28 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DecentSampler minVersion="1.0.0">
-    <!-- <ui bgImage="" width="812" height="375"> -->
-    <!--     <tab> -->
-    <!--         <labeled-knob x="" /> -->
-    <!--     </tab> -->
-    <!-- </ui> -->
+    <ui width="812" height="375" layoutMode="relative" bgMode="top_left" bgImage="background-1.png">
+        <tab name="main">
+            <control x="290" y="98" width="80" height="80" parameterName="ATTACK"
+                style="rotary_vertical_drag" trackForegroundColor="FFFDE26F"
+                trackBackgroundColor="FF4C4E49" type="float" minValue="0.0" maxValue="1.0" value="0"
+            >
+                <binding type="amp" level="instrument" position="0" parameter="ENV_ATTACK" />
+            </control>
+            <control x="444" y="98" width="80" height="80" parameterName="RELEASE"
+                style="rotary_vertical_drag" trackForegroundColor="FF7FE7D6"
+                trackBackgroundColor="FF4C4E49" type="float" minValue="0.0" maxValue="4.0"
+                value="2.0"
+            >
+                <binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
+            </control>
+        </tab>
+    </ui>
     <groups>
-        <group>
-            <sample rootNote="53" loNote="48" hiNote="53" path="Samples/14 ELEC GUITAR/CM470-ELEC_GUITAR-53.wav" />
-            <sample rootNote="55" loNote="54" hiNote="55" path="Samples/14 ELEC GUITAR/CM470-ELEC_GUITAR-55.wav" />
-            <sample rootNote="57" loNote="56" hiNote="57" path="Samples/14 ELEC GUITAR/CM470-ELEC_GUITAR-57.wav" />
-            <sample rootNote="59" loNote="58" hiNote="59" path="Samples/14 ELEC GUITAR/CM470-ELEC_GUITAR-59.wav" />
-            <sample rootNote="61" loNote="60" hiNote="61" path="Samples/14 ELEC GUITAR/CM470-ELEC_GUITAR-61.wav" />
-            <sample rootNote="63" loNote="62" hiNote="63" path="Samples/14 ELEC GUITAR/CM470-ELEC_GUITAR-63.wav" />
-            <sample rootNote="65" loNote="64" hiNote="65" path="Samples/14 ELEC GUITAR/CM470-ELEC_GUITAR-65.wav" />
-            <sample rootNote="67" loNote="66" hiNote="67" path="Samples/14 ELEC GUITAR/CM470-ELEC_GUITAR-67.wav" />
-            <sample rootNote="69" loNote="68" hiNote="69" path="Samples/14 ELEC GUITAR/CM470-ELEC_GUITAR-69.wav" />
-            <sample rootNote="71" loNote="70" hiNote="71" path="Samples/14 ELEC GUITAR/CM470-ELEC_GUITAR-71.wav" />
-            <sample rootNote="73" loNote="72" hiNote="73" path="Samples/14 ELEC GUITAR/CM470-ELEC_GUITAR-73.wav" />
-            <sample rootNote="75" loNote="74" hiNote="75" path="Samples/14 ELEC GUITAR/CM470-ELEC_GUITAR-75.wav" />
-            <sample rootNote="77" loNote="76" hiNote="77" path="Samples/14 ELEC GUITAR/CM470-ELEC_GUITAR-77.wav" />
-            <sample rootNote="79" loNote="78" hiNote="79" path="Samples/14 ELEC GUITAR/CM470-ELEC_GUITAR-79.wav" />
-            <sample rootNote="81" loNote="80" hiNote="81" path="Samples/14 ELEC GUITAR/CM470-ELEC_GUITAR-81.wav" />
-            <sample rootNote="83" loNote="82" hiNote="83" path="Samples/14 ELEC GUITAR/CM470-ELEC_GUITAR-83.wav" />
+        <group ampVelTrack="0">
+            <sample rootNote="65" loNote="60" hiNote="65"
+                path="Samples/14 ELEC GUITAR/CM470-ELEC_GUITAR-53.wav" />
+            <sample rootNote="67" loNote="66" hiNote="67"
+                path="Samples/14 ELEC GUITAR/CM470-ELEC_GUITAR-55.wav" />
+            <sample rootNote="69" loNote="68" hiNote="69"
+                path="Samples/14 ELEC GUITAR/CM470-ELEC_GUITAR-57.wav" />
+            <sample rootNote="71" loNote="70" hiNote="71"
+                path="Samples/14 ELEC GUITAR/CM470-ELEC_GUITAR-59.wav" />
+            <sample rootNote="73" loNote="72" hiNote="73"
+                path="Samples/14 ELEC GUITAR/CM470-ELEC_GUITAR-61.wav" />
+            <sample rootNote="75" loNote="74" hiNote="75"
+                path="Samples/14 ELEC GUITAR/CM470-ELEC_GUITAR-63.wav" />
+            <sample rootNote="77" loNote="76" hiNote="77"
+                path="Samples/14 ELEC GUITAR/CM470-ELEC_GUITAR-65.wav" />
+            <sample rootNote="79" loNote="78" hiNote="79"
+                path="Samples/14 ELEC GUITAR/CM470-ELEC_GUITAR-67.wav" />
+            <sample rootNote="81" loNote="80" hiNote="81"
+                path="Samples/14 ELEC GUITAR/CM470-ELEC_GUITAR-69.wav" />
+            <sample rootNote="83" loNote="82" hiNote="83"
+                path="Samples/14 ELEC GUITAR/CM470-ELEC_GUITAR-71.wav" />
+            <sample rootNote="85" loNote="84" hiNote="85"
+                path="Samples/14 ELEC GUITAR/CM470-ELEC_GUITAR-73.wav" />
+            <sample rootNote="87" loNote="86" hiNote="87"
+                path="Samples/14 ELEC GUITAR/CM470-ELEC_GUITAR-75.wav" />
+            <sample rootNote="89" loNote="88" hiNote="89"
+                path="Samples/14 ELEC GUITAR/CM470-ELEC_GUITAR-77.wav" />
+            <sample rootNote="91" loNote="90" hiNote="91"
+                path="Samples/14 ELEC GUITAR/CM470-ELEC_GUITAR-79.wav" />
+            <sample rootNote="93" loNote="92" hiNote="93"
+                path="Samples/14 ELEC GUITAR/CM470-ELEC_GUITAR-81.wav" />
+            <sample rootNote="95" loNote="94" hiNote="95"
+                path="Samples/14 ELEC GUITAR/CM470-ELEC_GUITAR-83.wav" />
         </group>
     </groups>
 </DecentSampler>

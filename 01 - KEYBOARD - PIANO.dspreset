@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DecentSampler minVersion="1.0.0">
-    <ui width="812" height="375" layoutMode="relative"
-        bgMode="top_left" bgImage="">
+    <ui width="812" height="375" layoutMode="relative" bgMode="top_left" bgImage="background-1.png">
         <tab name="main">
-            <labeled-knob x="445" y="75" width="90" textSize="16" textColor="AA000000"
-                trackForegroundColor="CC000000" trackBackgroundColor="66999999"
-                label="Attack" type="float" minValue="0.0" maxValue="1.0" value="0">
+            <control x="290" y="98" width="80" height="80" parameterName="ATTACK"
+                style="rotary_vertical_drag" trackForegroundColor="FFFDE26F"
+                trackBackgroundColor="FF4C4E49" type="float" minValue="0.0" maxValue="1.0" value="0"
+            >
                 <binding type="amp" level="instrument" position="0" parameter="ENV_ATTACK" />
-            </labeled-knob>
-            <labeled-knob x="515" y="75" width="90" textSize="16" textColor="AA000000"
-                trackForegroundColor="CC000000" trackBackgroundColor="66999999"
-                label="Release" type="float" minValue="0.0" maxValue="4.0" value="2.0">
+            </control>
+            <control x="444" y="98" width="80" height="80" parameterName="RELEASE"
+                style="rotary_vertical_drag" trackForegroundColor="FF7FE7D6"
+                trackBackgroundColor="FF4C4E49" type="float" minValue="0.0" maxValue="4.0"
+                value="2.0"
+            >
                 <binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
-            </labeled-knob>
+            </control>
         </tab>
     </ui>
     <groups>
-        <group>
+        <group ampVelTrack="0">
             <sample rootNote="53" loNote="48" hiNote="53" path="Samples/01 Piano/CM470-Piano-53.wav" />
             <sample rootNote="55" loNote="54" hiNote="55" path="Samples/01 Piano/CM470-Piano-55.wav" />
             <sample rootNote="57" loNote="56" hiNote="57" path="Samples/01 Piano/CM470-Piano-57.wav" />

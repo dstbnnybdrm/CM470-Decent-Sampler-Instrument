@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DecentSampler minVersion="1.0.0">
-    <!-- <ui bgImage="" width="812" height="375"> -->
-    <!--     <tab> -->
-    <!--         <labeled-knob x="" /> -->
-    <!--     </tab> -->
-    <!-- </ui> -->
+    <ui width="812" height="375" layoutMode="relative" bgMode="top_left" bgImage="background-1.png">
+        <tab name="main">
+            <control x="290" y="98" width="80" height="80" parameterName="ATTACK"
+                style="rotary_vertical_drag" trackForegroundColor="FFFDE26F"
+                trackBackgroundColor="FF4C4E49" type="float" minValue="0.0" maxValue="1.0" value="0"
+            >
+                <binding type="amp" level="instrument" position="0" parameter="ENV_ATTACK" />
+            </control>
+            <control x="444" y="98" width="80" height="80" parameterName="RELEASE"
+                style="rotary_vertical_drag" trackForegroundColor="FF7FE7D6"
+                trackBackgroundColor="FF4C4E49" type="float" minValue="0.0" maxValue="10.0"
+                value="7.0"
+            >
+                <binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
+            </control>
+        </tab>
+    </ui>
     <groups>
-        <group release="7">
+        <group ampVelTrack="0">
             <sample rootNote="53" loNote="48" hiNote="53"
                 path="Samples/19 TWINKLE ECHO/CM470-TWINKLE_ECHO-53.wav" />
             <sample rootNote="55" loNote="54" hiNote="55"
