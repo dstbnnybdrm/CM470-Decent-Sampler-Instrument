@@ -1,20 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DecentSampler minVersion="1.0.0">
-    <ui width="812" height="375" layoutMode="relative" bgMode="top_left" bgImage="background-1.png">
+    <ui width="812" height="375" layoutMode="relative" bgMode="top_left" bgImage="background-2.png">
         <tab name="main">
             <control x="290" y="104" width="80" height="80" parameterName="ATTACK"
                 style="rotary_vertical_drag" trackForegroundColor="FFFDE26F"
                 trackBackgroundColor="FF4C4E49" type="float" minValue="0.0" maxValue="1.0" value="0"
             >
-                <binding type="amp" level="instrument" position="0" parameter="ENV_ATTACK" />
+                <binding type="amp" level="group" position="0" parameter="ENV_ATTACK" />
             </control>
-            <control x="444" y="104" width="80" height="80" parameterName="RELEASE"
+            <control x="444" y="104" width="80" height="80" parameterName="RELEASE SAMPLE LENGTH"
                 style="rotary_vertical_drag" trackForegroundColor="FF7FE7D6"
                 trackBackgroundColor="FF4C4E49" type="float" minValue="0.0" maxValue="4.0"
-                value="2.0"
+                value="2.0" defaultValue="2.0"
             >
                 <binding type="amp" level="group" position="1" parameter="ENV_DECAY" />
             </control>
+            <control x="444" y="104" width="80" height="80" parameterName="RELEASE TIME"
+                style="rotary_vertical_drag" trackForegroundColor="FF7FE7D6"
+                trackBackgroundColor="FF4C4E49" type="float" minValue="0.1" maxValue="4.0"
+                defaultValue="2.0" visible="false"
+            >
+                <binding type="amp" level="group" position="0" parameter="ENV_RELEASE" />
+            </control>
+            <button x="98" y="100" width="70" height="50" style="text" value="0">
+                <state name="SAMPLE">
+                    <!-- set fixed release time -->
+                    <binding type="general" level="group" position="0" parameter="ENV_RELEASE"
+                        translation="fixed_value" translationValue="0.1" />
+                    <!-- enable release sample group -->
+                    <binding type="general" level="group" position="1" parameter="ENABLED"
+                        translation="fixed_value" translationValue="true" />
+                    <!-- enable built-in release knob -->
+                    <binding type="control" level="ui" position="1" parameter="VISIBLE"
+                        translation="fixed_value" translationValue="true" />
+                    <!-- disable custom release knob -->
+                    <binding type="control" level="ui" position="2" parameter="VISIBLE"
+                        translation="fixed_value" translationValue="false" />
+                </state>
+                <state name="ENVELOPE">
+                    <!-- disable release sample group -->
+                    <binding type="general" level="group" position="1" parameter="ENABLED"
+                        translation="fixed_value" translationValue="false" />
+                    <!-- disable built-in release knob -->
+                    <binding type="control" level="ui" position="1" parameter="VISIBLE"
+                        translation="fixed_value" translationValue="false" />
+                    <!-- enable custom release knob -->
+                    <binding type="control" level="ui" position="2" parameter="VISIBLE"
+                        translation="fixed_value" translationValue="true" />
+                </state>
+            </button>
         </tab>
     </ui>
     <groups>
