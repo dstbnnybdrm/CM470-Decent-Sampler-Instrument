@@ -20,37 +20,37 @@
     <groups>
         <group ampVelTrack="0">
             <sample rootNote="53" loNote="48" hiNote="53"
-                path="Samples/08 CLARINET/CM470-CLARINET-53.wav" />
+                path="Samples/08 CLARINET/SA35-CLARINET-53.wav" />
             <sample rootNote="55" loNote="54" hiNote="55"
-                path="Samples/08 CLARINET/CM470-CLARINET-55.wav" />
+                path="Samples/08 CLARINET/SA35-CLARINET-55.wav" />
             <sample rootNote="57" loNote="56" hiNote="57"
-                path="Samples/08 CLARINET/CM470-CLARINET-57.wav" />
+                path="Samples/08 CLARINET/SA35-CLARINET-57.wav" />
             <sample rootNote="59" loNote="58" hiNote="59"
-                path="Samples/08 CLARINET/CM470-CLARINET-59.wav" />
+                path="Samples/08 CLARINET/SA35-CLARINET-59.wav" />
             <sample rootNote="61" loNote="60" hiNote="61"
-                path="Samples/08 CLARINET/CM470-CLARINET-61.wav" />
+                path="Samples/08 CLARINET/SA35-CLARINET-61.wav" />
             <sample rootNote="63" loNote="62" hiNote="63"
-                path="Samples/08 CLARINET/CM470-CLARINET-63.wav" />
+                path="Samples/08 CLARINET/SA35-CLARINET-63.wav" />
             <sample rootNote="65" loNote="64" hiNote="65"
-                path="Samples/08 CLARINET/CM470-CLARINET-65.wav" />
+                path="Samples/08 CLARINET/SA35-CLARINET-65.wav" />
             <sample rootNote="67" loNote="66" hiNote="67"
-                path="Samples/08 CLARINET/CM470-CLARINET-67.wav" />
+                path="Samples/08 CLARINET/SA35-CLARINET-67.wav" />
             <sample rootNote="69" loNote="68" hiNote="69"
-                path="Samples/08 CLARINET/CM470-CLARINET-69.wav" />
+                path="Samples/08 CLARINET/SA35-CLARINET-69.wav" />
             <sample rootNote="71" loNote="70" hiNote="71"
-                path="Samples/08 CLARINET/CM470-CLARINET-71.wav" />
+                path="Samples/08 CLARINET/SA35-CLARINET-71.wav" />
             <sample rootNote="73" loNote="72" hiNote="73"
-                path="Samples/08 CLARINET/CM470-CLARINET-73.wav" />
+                path="Samples/08 CLARINET/SA35-CLARINET-73.wav" />
             <sample rootNote="75" loNote="74" hiNote="75"
-                path="Samples/08 CLARINET/CM470-CLARINET-75.wav" />
+                path="Samples/08 CLARINET/SA35-CLARINET-75.wav" />
             <sample rootNote="77" loNote="76" hiNote="77"
-                path="Samples/08 CLARINET/CM470-CLARINET-77.wav" />
+                path="Samples/08 CLARINET/SA35-CLARINET-77.wav" />
             <sample rootNote="79" loNote="78" hiNote="79"
-                path="Samples/08 CLARINET/CM470-CLARINET-79.wav" />
+                path="Samples/08 CLARINET/SA35-CLARINET-79.wav" />
             <sample rootNote="81" loNote="80" hiNote="81"
-                path="Samples/08 CLARINET/CM470-CLARINET-81.wav" />
-            <sample rootNote="83" loNote="82" hiNote="83"
-                path="Samples/08 CLARINET/CM470-CLARINET-83.wav" />
+                path="Samples/08 CLARINET/SA35-CLARINET-81.wav" />
+            <sample rootNote="83" loNote="82" hiNote="84"
+                path="Samples/08 CLARINET/SA35-CLARINET-83.wav" />
         </group>
     </groups>
 </DecentSampler>
