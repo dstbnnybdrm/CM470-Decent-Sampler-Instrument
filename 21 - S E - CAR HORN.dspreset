@@ -54,11 +54,11 @@
     <groups>
         <group release="0.1" ampVelTrack="0">
             <sample pitchKeyTrack="0" rootNote="48" loNote="48" hiNote="84"
-                path="Samples/21 CAR HORN/SA35-CAR_HORN.wav" />
+                path="Samples/21 CAR HORN/SA35_CAR-HORN.wav" />
         </group>
         <group trigger="release" attack="0.1" sustain="0" ampVelTrack="0">
             <sample pitchKeyTrack="0" rootNote="48" loNote="48" hiNote="84"
-                path="Samples/21 CAR HORN/SA35-CAR_HORN-REL.wav" />
+                path="Samples/21 CAR HORN/SA35_CAR-HORN_REL.wav" />
         </group>
     </groups>
 </DecentSampler>

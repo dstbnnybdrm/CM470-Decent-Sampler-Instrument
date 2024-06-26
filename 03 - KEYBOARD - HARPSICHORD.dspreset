@@ -20,37 +20,37 @@
     <groups>
         <group ampVelTrack="0">
             <sample rootNote="53" loNote="48" hiNote="53"
-                path="Samples/03 HARPSICHORD/SA35-HARPSICHORD-53.wav" />
+                path="Samples/03 HARPSICHORD/SA35_HARPSICHORD_53.wav" />
             <sample rootNote="55" loNote="54" hiNote="55"
-                path="Samples/03 HARPSICHORD/SA35-HARPSICHORD-55.wav" />
+                path="Samples/03 HARPSICHORD/SA35_HARPSICHORD_55.wav" />
             <sample rootNote="57" loNote="56" hiNote="57"
-                path="Samples/03 HARPSICHORD/SA35-HARPSICHORD-57.wav" />
+                path="Samples/03 HARPSICHORD/SA35_HARPSICHORD_57.wav" />
             <sample rootNote="59" loNote="58" hiNote="59"
-                path="Samples/03 HARPSICHORD/SA35-HARPSICHORD-59.wav" />
+                path="Samples/03 HARPSICHORD/SA35_HARPSICHORD_59.wav" />
             <sample rootNote="61" loNote="60" hiNote="61"
-                path="Samples/03 HARPSICHORD/SA35-HARPSICHORD-61.wav" />
+                path="Samples/03 HARPSICHORD/SA35_HARPSICHORD_61.wav" />
             <sample rootNote="63" loNote="62" hiNote="63"
-                path="Samples/03 HARPSICHORD/SA35-HARPSICHORD-63.wav" />
+                path="Samples/03 HARPSICHORD/SA35_HARPSICHORD_63.wav" />
             <sample rootNote="65" loNote="64" hiNote="65"
-                path="Samples/03 HARPSICHORD/SA35-HARPSICHORD-65.wav" />
+                path="Samples/03 HARPSICHORD/SA35_HARPSICHORD_65.wav" />
             <sample rootNote="67" loNote="66" hiNote="67"
-                path="Samples/03 HARPSICHORD/SA35-HARPSICHORD-67.wav" />
+                path="Samples/03 HARPSICHORD/SA35_HARPSICHORD_67.wav" />
             <sample rootNote="69" loNote="68" hiNote="69"
-                path="Samples/03 HARPSICHORD/SA35-HARPSICHORD-69.wav" />
+                path="Samples/03 HARPSICHORD/SA35_HARPSICHORD_69.wav" />
             <sample rootNote="71" loNote="70" hiNote="71"
-                path="Samples/03 HARPSICHORD/SA35-HARPSICHORD-71.wav" />
+                path="Samples/03 HARPSICHORD/SA35_HARPSICHORD_71.wav" />
             <sample rootNote="73" loNote="72" hiNote="73"
-                path="Samples/03 HARPSICHORD/SA35-HARPSICHORD-73.wav" />
+                path="Samples/03 HARPSICHORD/SA35_HARPSICHORD_73.wav" />
             <sample rootNote="75" loNote="74" hiNote="75"
-                path="Samples/03 HARPSICHORD/SA35-HARPSICHORD-75.wav" />
+                path="Samples/03 HARPSICHORD/SA35_HARPSICHORD_75.wav" />
             <sample rootNote="77" loNote="76" hiNote="77"
-                path="Samples/03 HARPSICHORD/SA35-HARPSICHORD-77.wav" />
+                path="Samples/03 HARPSICHORD/SA35_HARPSICHORD_77.wav" />
             <sample rootNote="79" loNote="78" hiNote="79"
-                path="Samples/03 HARPSICHORD/SA35-HARPSICHORD-79.wav" />
+                path="Samples/03 HARPSICHORD/SA35_HARPSICHORD_79.wav" />
             <sample rootNote="81" loNote="80" hiNote="81"
-                path="Samples/03 HARPSICHORD/SA35-HARPSICHORD-81.wav" />
+                path="Samples/03 HARPSICHORD/SA35_HARPSICHORD_81.wav" />
             <sample rootNote="83" loNote="82" hiNote="84"
-                path="Samples/03 HARPSICHORD/SA35-HARPSICHORD-83.wav" />
+                path="Samples/03 HARPSICHORD/SA35_HARPSICHORD_83.wav" />
         </group>
     </groups>
 </DecentSampler>
