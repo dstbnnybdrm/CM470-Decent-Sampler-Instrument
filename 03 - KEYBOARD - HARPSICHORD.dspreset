@@ -3,12 +3,14 @@
     <ui width="812" height="375" layoutMode="relative" bgMode="top_left"
         bgImage="Images/background-1.png">
         <tab name="main">
+            <!-- attack -->
             <control x="290" y="104" width="80" height="80" parameterName="ATTACK"
                 style="rotary_vertical_drag" trackForegroundColor="FFFDE26F"
                 trackBackgroundColor="FF4C4E49" type="float" minValue="0.0" maxValue="1.0" value="0"
             >
                 <binding type="amp" level="instrument" position="0" parameter="ENV_ATTACK" />
             </control>
+            <!-- release -->
             <control x="444" y="104" width="80" height="80" parameterName="RELEASE"
                 style="rotary_vertical_drag" trackForegroundColor="FF7FE7D6"
                 trackBackgroundColor="FF4C4E49" type="float" minValue="0.0" maxValue="4.0"
@@ -17,6 +19,13 @@
                 <binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
             </control>
         </tab>
+        <keyboard>
+            <!-- original range -->
+            <color loNote="53" hiNote="83" color="FF96DFD8"></color>
+            <!-- extended range -->
+            <color loNote="48" hiNote="52" color="FFC9DBDE"></color>
+            <color loNote="84" hiNote="96" color="FFC9DBDE"></color>
+        </keyboard>
     </ui>
     <groups>
         <group ampVelTrack="0">
@@ -50,7 +59,7 @@
                 path="Samples/03 HARPSICHORD/SA35_HARPSICHORD_79.wav" />
             <sample rootNote="81" loNote="80" hiNote="81"
                 path="Samples/03 HARPSICHORD/SA35_HARPSICHORD_81.wav" />
-            <sample rootNote="83" loNote="82" hiNote="84"
+            <sample rootNote="83" loNote="82" hiNote="96"
                 path="Samples/03 HARPSICHORD/SA35_HARPSICHORD_83.wav" />
         </group>
     </groups>

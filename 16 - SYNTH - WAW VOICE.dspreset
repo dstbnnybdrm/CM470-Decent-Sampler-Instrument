@@ -3,12 +3,14 @@
     <ui width="812" height="375" layoutMode="relative" bgMode="top_left"
         bgImage="Images/background-2.png">
         <tab name="main">
+            <!-- attack -->
             <control x="290" y="104" width="80" height="80" parameterName="ATTACK"
                 style="rotary_vertical_drag" trackForegroundColor="FFFDE26F"
                 trackBackgroundColor="FF4C4E49" type="float" minValue="0.0" maxValue="1.0" value="0"
             >
                 <binding type="amp" level="group" position="0" parameter="ENV_ATTACK" />
             </control>
+            <!-- release mode: sample -->
             <control x="444" y="104" width="80" height="80" parameterName="RELEASE SAMPLE LENGTH"
                 style="rotary_vertical_drag" trackForegroundColor="FF7FE7D6"
                 trackBackgroundColor="FF4C4E49" type="float" minValue="0.0" maxValue="4.0"
@@ -16,6 +18,7 @@
             >
                 <binding type="amp" level="group" position="1" parameter="ENV_DECAY" />
             </control>
+            <!-- release mode: envelope -->
             <control x="444" y="104" width="80" height="80" parameterName="RELEASE TIME"
                 style="rotary_vertical_drag" trackForegroundColor="FF7FE7D6"
                 trackBackgroundColor="FF4C4E49" type="float" minValue="0.1" maxValue="4.0"
@@ -23,6 +26,7 @@
             >
                 <binding type="amp" level="group" position="0" parameter="ENV_RELEASE" />
             </control>
+            <!-- release mode toggle -->
             <button x="98" y="100" width="70" height="50" style="text" value="0">
                 <state name="SAMPLE">
                     <!-- set fixed release time -->
@@ -51,6 +55,13 @@
                 </state>
             </button>
         </tab>
+        <keyboard>
+            <!-- original range -->
+            <color loNote="53" hiNote="83" color="FF96DFD8"></color>
+            <!-- extended range -->
+            <color loNote="48" hiNote="52" color="FFC9DBDE"></color>
+            <color loNote="84" hiNote="96" color="FFC9DBDE"></color>
+        </keyboard>
     </ui>
     <groups>
         <group release="0.1" ampVelTrack="0">
@@ -84,7 +95,7 @@
                 path="Samples/16 WAW VOICE/SA35_WAW-VOICE_79.wav" />
             <sample rootNote="81" loNote="80" hiNote="81"
                 path="Samples/16 WAW VOICE/SA35_WAW-VOICE_81.wav" />
-            <sample rootNote="83" loNote="82" hiNote="84"
+            <sample rootNote="83" loNote="82" hiNote="96"
                 path="Samples/16 WAW VOICE/SA35_WAW-VOICE_83.wav" />
         </group>
         <group trigger="release" attack="0.1" sustain="0" ampVelTrack="0">
@@ -118,7 +129,7 @@
                 path="Samples/16 WAW VOICE/SA35_WAW-VOICE_REL_79.wav" />
             <sample rootNote="81" loNote="80" hiNote="81"
                 path="Samples/16 WAW VOICE/SA35_WAW-VOICE_REL_81.wav" />
-            <sample rootNote="83" loNote="82" hiNote="84"
+            <sample rootNote="83" loNote="82" hiNote="96"
                 path="Samples/16 WAW VOICE/SA35_WAW-VOICE_REL_83.wav" />
         </group>
     </groups>
