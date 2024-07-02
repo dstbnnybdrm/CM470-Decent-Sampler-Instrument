@@ -60,7 +60,7 @@
             <color loNote="53" hiNote="83" color="FF96DFD8"></color>
             <!-- extended range -->
             <color loNote="48" hiNote="52" color="FFC9DBDE"></color>
-            <color loNote="96" hiNote="96" color="FFC9DBDE"></color>
+            <color loNote="84" hiNote="96" color="FFC9DBDE"></color>
         </keyboard>
     </ui>
     <groups>
